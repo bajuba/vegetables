@@ -1,20 +1,48 @@
 <head>
     <style>
-        body {  background-color: orange;}
+        body {  font-family: sans-serif;}
+        .bg {   background-image: url("Images/ThinkstockPhotos-507126001_0.jpg");
+                height: 100%; 
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;}
+        .info { float: left;
+                font-size: 200%;
+                margin-left: 5%;}
+        #pic1 { height: 15%;
+                width: auto;
+                float: left;
+                position: absolute;
+                left: 8%;
+                margin-top: 1%;}
+        #pic2 { height: 15%;
+                width: auto;
+                float: left;
+                position: absolute;
+                right: 8%;
+                margin-top: 1%;}
         h1 {    background-color: green;
-                color: orange;}
+                color: orange;
+                text-align: center;
+                font-size: 700%;
+                margin: 0;
+                height: 15%;
+                padding: 1% 0 1% 0}
+        p { color: orange;}
+        .clear {clear: both;}
     </style>
 </head>
-<body>
-    <h1>Carrot</h1>
-    <p>Resembles an orange food-like substance.</p>
-    <a href="https://en.wikipedia.org/wiki/Carrot">wikipedia</a><br>
-    <a href="lettuce.html">lettuce link</a><br>
-    <a href="cabbage.html">cabbage link</a><br>
-<img src="Carrot.png">
-    
-    <br />
-    <br />
-    <img src="https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/images/carrots.jpg?itok=NWEU93vg">
-    
+<body class="bg">
+    <div>
+        <img src="Carrot.png" id="pic1">
+        <img src="https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/images/carrots.jpg?itok=NWEU93vg" id="pic2">
+    </div>
+    <h1>Carrot</h1>    
+    <div class="clear"></div>
+    <div class="info">
+        <p>Resembles an orange food-like substance.</p>
+        <a href="https://en.wikipedia.org/wiki/Carrot">wikipedia</a><br>
+        <a href="lettuce.html">lettuce link</a><br>
+        <a href="cabbage.html">cabbage link</a><br>
+    </div>
 </body>
