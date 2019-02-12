@@ -1,0 +1,69 @@
+body {
+    background-color: darkorange;
+}
+h1 {
+    background-color: red;
+    }
+#wrapper {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+.link:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.link {
+    position: absolute;
+    margin-top: 20px;
+    background: url(carrot.png) no-repeat;
+    width: 224px;
+    height: 230px;
+    font-size: 50;
+}
+
+
+.link:active {
+    background-color: dimgray;
+    transform: translate(2px, 2px);
+}
+
+.link2:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.link2 {
+    position: absolute;
+    margin-top: 250;
+    background: url(carrot.png) no-repeat;
+    width: 224px;
+    height: 230px;
+    font-size: 50;
+}
+
+
+.link2:active {
+    background-color: dimgray;
+    transform: translate(2px, 2px);
+}
+
+#sprite{
+    position: absolute;
+    margin-top: -9px;
+    margin-left:400;
+    width: 500px;
+    height: 500px;
+    background: url(tenor.gif) no-repeat;
+}
+
+#sprite2{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: url(AW390471_23.gif) no-repeat;
+    float: left;
+    margin-top: 50px;
+}
